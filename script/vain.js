@@ -190,7 +190,7 @@ const mineVanity = (inp) => {
                     DEPTH: (j * inp.nonceDepth) + i,
                     GOAL: vanity,
                     CONTRACT: web3.toChecksumAddress(cAddr),
-                    ADDRESS: web3cd .toChecksumAddress(a.addr),
+                    ADDRESS: web3.toChecksumAddress(a.addr),
                     PRIVKEY: a.priv,
                     NONCE: i,
                     FOUND: "success! save this result and use to deploy your vanity contract"
